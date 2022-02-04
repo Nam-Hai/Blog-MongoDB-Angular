@@ -1,0 +1,14 @@
+.container {
+    margin: 5rem auto;
+    width: 55rem;
+    background: white;
+    height: 45rem;
+
+    display: flex;
+    flex-direction: row;
+
+    app-list-article {
+        border-right: 1px solid lightblue;
+        width: 15rem;
+    }
+}
