@@ -1,7 +1,12 @@
 <div class="list-article-container">
-    <h1>Mes articles</h1>
+    <div>
+        <h1>Mes articles</h1>
 
-    <div *ngFor="let article of articles" class="header-article-container">
-        <h2>{{ article.title }}</h2>
+        <div *ngFor="let article of articles" class="header-article-container">
+            <h2>{{ article.title }}</h2>
+        </div>
+
     </div>
+    
+    <button class="btn btn-newItem">+ New List</button>
 </div>

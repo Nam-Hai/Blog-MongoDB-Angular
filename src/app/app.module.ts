@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { DisplayArticleComponent } from './display-article/display-article.component';
+import { DataService } from './Service/data.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { DisplayArticleComponent } from './display-article/display-article.compo
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

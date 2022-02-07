@@ -7,8 +7,15 @@
     display: flex;
     flex-direction: row;
 
+    border-radius: .5rem;
+    overflow: hidden;
+
     app-list-article {
-        border-right: 1px solid lightblue;
         width: 15rem;
+    }
+
+    app-display-article {
+        background: rgb(248, 248, 242);
+        flex-grow: 1;
     }
 }
