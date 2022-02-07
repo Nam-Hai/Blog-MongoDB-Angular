@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../Service/data.service';
 
+
 @Component({
   selector: 'app-list-article',
   templateUrl: './list-article.component.html',

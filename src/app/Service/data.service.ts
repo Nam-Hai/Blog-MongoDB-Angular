@@ -11,7 +11,7 @@ export class DataService {
     {
       title: 'article 1',
       createdAt: Date(),
-      description: 'descrition 1',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum iure cupiditate nisi distinctio dicta voluptate quasi quas voluptas dolorem!',
       content: 'content 1'
     },
     {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../Service/data.service';
+
 
 @Component({
   selector: 'app-display-article',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayArticleComponent implements OnInit {
 
-  constructor() { }
+  articleDATA = {
+    title: '',
+    description: ''
+  }
+
+  constructor(dataService: DataService) {
+    this.articleDATA = dataService.articles[0]
+  }
 
   ngOnInit(): void {
   }

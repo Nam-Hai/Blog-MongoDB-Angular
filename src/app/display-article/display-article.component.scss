@@ -1,5 +1,28 @@
+.header {
+    margin-bottom: 2rem;
+    display: flex;
+}
 h1 {
-    color: var(--primary);
+    display: inline;
+    color: black;
+    text-transform: capitalize;
+}
+
+a {
+    
+    display: inline-block;
+    background: white;
+
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 2rem;
+    height: 2rem; 
+    padding: .3rem;
+
+    margin-left: auto;
+}
+
+img {
 }
 
 .container {
