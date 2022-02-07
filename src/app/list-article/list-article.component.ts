@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../Service/data.service';
 
 @Component({
   selector: 'app-list-article',
@@ -7,22 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListArticleComponent implements OnInit {
 
-  articles = [
-    {
-      title: 'article 1',
-      createdAt: Date(),
-      description: 'descrition 1',
-      content: 'content 1'
-    },
-    {
-      title: 'article 2',
-      createdAt: Date(),
-      description: 'descrition 2',
-      content: 'content 2'
-    }
-  ] 
+  articles;
 
-  constructor() { }
+  constructor(dataService : DataService) {
+    this.articles = dataService.articles;
+  }
 
   ngOnInit(): void {
   }
