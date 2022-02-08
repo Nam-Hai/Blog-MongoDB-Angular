@@ -6,7 +6,11 @@
         <a href="#">
             <img src="../../assets/settings-outline.svg" alt="setting">
         </a>
+        <br>
+        <small>{{ articleDATA.createdAt | date : "short"}}</small>
     </div>
+
+
 
     <p>
         {{ articleDATA.description }}

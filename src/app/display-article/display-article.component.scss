@@ -1,6 +1,7 @@
 .header {
     margin-bottom: 2rem;
-    display: flex;
+    width: 100%;
+    display: block;
 }
 h1 {
     display: inline;
@@ -18,9 +19,13 @@ a {
     width: 2rem;
     height: 2rem; 
     padding: .3rem;
-
-    margin-left: auto;
 }
+
+small {
+    display: block;
+    margin-top: .5rem;
+}
+
 
 img {
 }
